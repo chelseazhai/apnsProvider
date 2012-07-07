@@ -45,7 +45,7 @@ public class APNSProvider {
 			// devices payload list
 			List<PayloadPerDevice> devicesPayloadList = new ArrayList<PayloadPerDevice>();
 
-			// create and init payload
+			// create and init payload for test by ares
 			PushNotificationPayload payload = new PushNotificationPayload();
 			payload.addAlert("Ares 邀请您加入会议（会议号：" + Math.abs(new Random().nextInt()) + "）");
 			payload.addBadge(1);
